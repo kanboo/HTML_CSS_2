@@ -1,0 +1,199 @@
+.container {
+    margin: 0 30px;
+    min-width: 375px;
+}
+
+.container>div {
+    margin-bottom: 30px;
+}
+
+
+/* header */
+
+.logo {
+    float: left;
+}
+
+.muen {
+    float: right;
+}
+
+.header li {
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e44d26;
+    text-decoration: none;
+    padding-bottom: 16px;
+}
+
+.header a:hover {
+    border-bottom: 4px solid #e44d26;
+}
+
+
+/* content */
+
+.content {
+    height: 340px;
+    background-image: url(/img/andyone-26591.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.content p {
+    color: white;
+    /* padding-top: 150px; */
+    font-size: 4em;
+    text-align: center;
+    word-spacing: -17px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+
+/* column_3 */
+
+.column_3>div {
+    float: left;
+    width: 31%;
+    margin: 0 5px;
+    border-bottom: 3px solid gray;
+}
+
+.column_3 .center {
+    text-align: center;
+    margin-bottom: -18px;
+}
+
+
+/* table */
+
+.table>h2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 87%;
+}
+
+table>tbody>tr:first-child {
+    background-color: rgba(128, 128, 128, 0.22);
+}
+
+table,
+th,
+td {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+th,
+td {
+    height: 50px;
+}
+
+.obvious {
+    color: #009688;
+}
+
+
+/* form */
+
+.form {
+    height: 340px;
+    background-color: rgba(33, 162, 97, 0.98);
+}
+
+.form h2 {
+    color: white;
+    text-align: center;
+}
+
+.form>div {
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.form>div * {
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    /*自动适应父布局宽度*/
+    height: 15em;
+    overflow: auto;
+    word-break: break-all;
+}
+
+.form input {
+    width: 100%;
+    margin: 8px auto;
+}
+
+.btn {
+    float: right;
+}
+
+.btn button {
+    font-size: 1em;
+    background-color: green;
+    color: white;
+}
+
+
+/* footer */
+
+.footer {
+    margin: 0 15px;
+}
+
+.contact {
+    float: right;
+}
+
+.contact li {
+    /* float: left; */
+    /* display: block; */
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.contact a {
+    color: red;
+}
+
+
+/* 清除浮動 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*For IE 6&7 only*/
+}
